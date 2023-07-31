@@ -14,7 +14,7 @@ import ViewActualVisit from "./pages/ViewActualVisit";
 const authConfig = {
   baseUrl: "https://myaccount.asgardeo.io/t/choreoplayground",
   clientID: "UKTBDi_w2sX7yX2iGmJV8ZSpyMsa",
-  scope: ["openid"],
+  scope: ["openid", "profile"],
   signInRedirectURL: "https://" + window.location.host,
   signOutRedirectURL: "https://" + window.location.host,
 };
