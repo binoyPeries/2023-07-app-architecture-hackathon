@@ -17,6 +17,7 @@ const authConfig = {
   scope: [
     "openid",
     "profile",
+    "houseno",
     "urn:choreoplayground:visitapivisit420:binoy_resident",
   ],
   signInRedirectURL: "https://" + window.location.host,
